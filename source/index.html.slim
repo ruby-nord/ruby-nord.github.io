@@ -8,29 +8,26 @@ p Nous sommes une communauté de développeurs Ruby et Ruby on Rails au Nord de 
 
 .m-section
   h2 Événements
-  div class="event"
-    p
-      | Nous nous rencontrons lors d’
-      strong' apéros / workshops
-      | pour partager nos connaissances sur les dernières tendances Ruby.
-    = image_tag 'events/apero-ruby-lille.jpeg', alt: 'Photo de rencontre développeurs ruby lille'
-  div class="event"
-    p
-      ' À l’occasion de
-      strong Ruby Burgers
-      | , nous nous retrouvons également autour d’une bière et d’un burger : une simple excuse pour se connaître et partager un bon moment.
-    = image_tag 'events/ruby-burger-lille.jpg', alt: 'Photo repas ruby burger'
-  div class="event"
-    p
-      ' Si vous débutez en Ruby / Ruby on Rails, nos ateliers et rencontres
-      strong' Rails Mentors
-      | vous permettrons de mettre le pied à l'étrier.
-    = image_tag 'events/rails-mentor-lille.jpeg', alt: 'Photo de rails mentors à Lille'
-  dev class="new-event"
-    p
-      | Un événement n'a pas eu lieu depuis belle lurette ? Aucun événement ne semble combler vos attentes ? N'hésitez pas à en proposer un.
-    .text-center
-      = link_to 'Proposer un événement', data.settings.social.meetup, class: 'button secondary large'
+  p
+    | Nous nous rencontrons lors d’
+    em> apéros / workshops
+    | pour partager nos connaissances sur les dernières tendances Ruby.
+  = image_tag 'events/apero-ruby-lille.jpeg', alt: 'Photo de rencontre développeurs ruby lille'
+  p
+    ' À l’occasion de
+    em Ruby Burgers
+    | , nous nous retrouvons également autour d’une bière et d’un burger : une simple excuse pour se connaître et partager un bon moment.
+  = image_tag 'events/ruby-burger-lille.jpg', alt: 'Photo repas ruby burger'
+  p
+    ' Si vous débutez en Ruby / Ruby on Rails, nos ateliers et rencontres
+    em> Rails Mentors
+    | vous permettrons de mettre le pied à l'étrier.
+  = image_tag 'events/rails-mentor-lille.jpeg', alt: 'Photo de rails mentors à Lille'
+
+  p
+    | Un événement n'a pas eu lieu depuis belle lurette ? Aucun événement ne semble combler vos attentes ? N'hésitez pas à en proposer un.
+  .text-center
+    = link_to 'Proposer un événement', data.settings.social.meetup, class: 'button large'
 
 .m-section
   h2 Discuter sur notre chat
@@ -39,4 +36,4 @@ p Nous sommes une communauté de développeurs Ruby et Ruby on Rails au Nord de 
     => mail_to data.settings.social.email
     'en indiquant votre profil Meetup.
   .text-center
-    = mail_to data.settings.social.email, 'Rejoindre la discussion', subject: '[ruby-nord] Demande d’invitation Slack', class: 'button secondary large'
+    = mail_to data.settings.social.email, 'Rejoindre la discussion', subject: '[ruby-nord] Demande d’invitation Slack', class: 'button large'
