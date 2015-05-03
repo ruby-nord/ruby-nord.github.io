@@ -39,9 +39,14 @@ If you have problems, please create a [GitHub Issue](https://github.com/ruby-nor
 
 Have a fix or want to add a feature? [Pull Requests](https://github.com/ruby-nord/ruby-nord.github.io/pulls) are welcome!
 
-## License
+## License & Credits
 
 This project is free software, and may be redistributed under:
 
 * [GNU/GPL license](LICENSE) for sources
 * [Creative Commons Attribution-ShareAlike](LICENSE) for media
+
+Credits:
+
+* [François Lecroart - Ruby Burgers photo](https://plus.google.com/photos/+FrancoisLecroart/albums/5868304479818232049/5868304484730033986?pid=5868304484730033986&oid=111038524646630156975)
+* Ruby Nord for any other media
