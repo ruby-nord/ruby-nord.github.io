@@ -41,4 +41,7 @@ Have a fix or want to add a feature? [Pull Requests](https://github.com/ruby-nor
 
 ## License
 
-This project is free software, and may be redistributed under [GNU/GPL license](LICENSE).
+This project is free software, and may be redistributed under:
+
+* [GNU/GPL license](LICENSE) for sources
+* [Creative Commons Attribution-ShareAlike](LICENSE) for media
