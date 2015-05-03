@@ -1,2 +1,9 @@
 header.m-header
-  .ruby-logo
+  .row
+    .medium-5.medium-push-1.small-6.columns
+      h1 = current_page.data.page_title
+    .medium-5.small-6.columns
+      = link_to data.settings.social.meetup, class: 'button large right' do
+        'S’inscrire
+        span à la prochaine rencontre
+

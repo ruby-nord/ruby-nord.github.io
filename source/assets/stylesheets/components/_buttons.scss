@@ -1,4 +1,5 @@
 .button {
+  border-radius: $global-radius;
   &:hover {
     text-decoration: none;
   }

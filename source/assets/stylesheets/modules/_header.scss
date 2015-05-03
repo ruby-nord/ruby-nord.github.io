@@ -2,4 +2,17 @@
   padding: rem-calc(40 0);
   margin-bottom: rem-calc(40);
   background: $black;
+
+  h1 {
+    color: $white;
+  }
+  .button {
+    margin-top: rem-calc(20);
+    margin-bottom: 0;
+  }
+  span {
+    @media #{$small-only} {
+      display: none;
+    }
+  }
 }
