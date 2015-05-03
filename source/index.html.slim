@@ -1,5 +1,5 @@
 ---
-title: Rencontres entre développeurs ruby on rails sur Lille
+title: Rencontres entre développeurs Ruby on Rails sur Lille
 description:
 ---
 
@@ -8,22 +8,30 @@ description:
   .medium-8.medium-centered.columns
     h1 ruby-nord
 
-    p Nous sommes une communauté de développeurs Ruby et Ruby on Rails au Nord de Paris. Nous échangeons autour des technologies web (ruby, gems, frameworks…), des meilleurs pratiques (méthodes agiles, tests…), que vous soyez professionnel, amateur éclairé ou simplement curieux.
+    p Nous sommes une communauté de développeurs Ruby et Ruby on Rails au Nord de Paris. Nous échangeons autour des technologies web (ruby, gems, frameworks…), des meilleures pratiques (méthodes agiles, conventions, tests…) ainsi que de tout ce qui touche de près ou de loin à Ruby. Que vous soyez professionnel, amateur éclairé ou simple curieux, vous êtes le bienvenu.
 
     .m-section.text-center
       = link_to 'S’inscrire à la prochaine rencontre', data.settings.social.meetup, class: 'button large'
 
     .m-section
-      h2 Évènements
+      h2 Événements
 
       p Nous nous rencontrons lors d’apéros / workshops pour partager nos connaissances sur les dernières tendances Ruby.
 
       p À l’occasion de Ruby Burgers, nous nous retrouvons également autour d’une bière et d’un burger : une simple excuse pour se connaître et partager un bon moment.
 
+      p Si vous débutez en Ruby / Ruby on Rails, nos Ateliers et rencontres Rails Mentors vous permettrons de mettre le pied à l'étrier.
+
+      .m-section.text-center
+        = link_to 'Proposer un événement', data.settings.social.meetup, class: 'button large'
+
     .m-section
       h2 Discuter sur notre chat
 
       p
-        'Pour rejoindre le slack c’est facile. Envoyez un email à
+        'Nous avons créé un groupe de discussion sur Slack. Pour le rejoindre, envoyez-nous un email à
         => mail_to data.settings.social.email
-        'en précisant pourquoi nous devrions vous accepter. Seul les plus créatifs seront autorisés à nous rejoindre car les places sont limitées :)
+        'en indiquant votre profil Meetup.
+
+      .m-section.text-center
+        = mail_to data.settings.social.email, 'Rejoindre la discussion', subject: "[ruby-nord] Demande d'invitation Slack", class: 'button large'
