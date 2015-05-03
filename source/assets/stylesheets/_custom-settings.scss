@@ -37,12 +37,12 @@ $header-font-family: $font-family-cursive;
 $header-font-weight: $font-weight-bold;
 $header-text-rendering: optimizeLegibility;
 
-$h1-font-size: rem-calc(42);
-$h2-font-size: rem-calc(32);
-$h3-font-size: rem-calc(24);
-$h4-font-size: rem-calc(20);
-$h5-font-size: rem-calc(18);
-$h6-font-size: rem-calc(16);
+$h1-font-size: rem-calc(52);
+$h2-font-size: rem-calc(42);
+$h3-font-size: rem-calc(34);
+$h4-font-size: rem-calc(30);
+$h5-font-size: rem-calc(28);
+$h6-font-size: rem-calc(26);
 
 $subheader-line-height: 1.5;
 $subheader-font-weight: inherit;
@@ -86,3 +86,4 @@ $button-font-weight: $font-weight-normal;
 $button-radius: $global-radius;
 $button-disabled-opacity: 0.5;
 $button-disabled-cursor: $cursor-disabled-value;
+$button-function-factor: 20%;

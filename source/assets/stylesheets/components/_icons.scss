@@ -1,0 +1,23 @@
+.icon-ruby {
+  border-style: solid;
+  border-color: transparent transparent $red;
+  border-width: rem-calc(0 5 5);
+  height: rem-calc(5);
+  width: rem-calc(20);
+  position: relative;
+  margin-top: rem-calc(4);
+  margin-bottom: rem-calc(10);
+  margin-left: auto;
+  margin-right: auto;
+  &:after {
+    content: "";
+    position: absolute;
+    top: rem-calc(5);
+    left: rem-calc(-5);
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: $red transparent transparent;
+    border-width: rem-calc(10 10 0);
+  }
+}

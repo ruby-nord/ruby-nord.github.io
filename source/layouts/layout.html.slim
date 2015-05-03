@@ -14,7 +14,9 @@ html lang="#{data.settings.site.i18n}"
 
   body class='#{page_classes}'
     = partial 'views/global/header'
-    == yield
+    main.row
+      .medium-8.medium-centered.columns
+        == yield
     = partial 'views/global/footer'
 
     = javascript_include_tag 'application'

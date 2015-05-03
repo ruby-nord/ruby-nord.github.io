@@ -1,0 +1,24 @@
+.m-footer {
+  padding: rem-calc(40 0);
+  margin-top: rem-calc(40);
+  background-color: $white;
+  display: flex;
+}
+
+.m-footer--navigation {
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  @media #{$medium}{
+    flex-direction: row;
+    flex: 4;
+    display: flex;
+  }
+
+  a {
+    text-align: center;
+    display: block;
+    flex: 1;
+    padding: rem-calc(20 0);
+  }
+}

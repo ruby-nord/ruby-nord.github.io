@@ -2,24 +2,4 @@
   padding: rem-calc(40 0);
   margin-bottom: rem-calc(40);
   background: $black;
-
-  .logo {
-    transform: rotate(90deg);
-    display: block;
-    width: rem-calc(80);
-    height: rem-calc(20);
-    margin: 0 auto;
-    font-size: rem-calc(110);
-
-    &:after {
-      content: "\25B8";
-      color: $red;
-    }
-  }
-}
-
-.m-footer {
-  padding: rem-calc(40 0);
-  margin-top: rem-calc(40);
-  text-align: center;
 }

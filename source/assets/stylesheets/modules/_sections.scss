@@ -1,3 +1,6 @@
 .m-section {
   margin: rem-calc(100 0);
+  img {
+    margin-bottom: $paragraph-margin-bottom;
+  }
 }

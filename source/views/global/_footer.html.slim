@@ -1,2 +1,8 @@
 footer.m-footer
-  = link_to 'Twitter', data.settings.social.twitter.url
+  .row
+    .m-footer--navigation
+      = link_to '#' do
+        .icon-ruby
+      = link_to 'Twitter', data.settings.social.twitter.url
+      = link_to 'GitHub', data.settings.social.github
+      = link_to 'Meetup', data.settings.social.meetup
