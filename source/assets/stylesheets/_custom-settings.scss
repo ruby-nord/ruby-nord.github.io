@@ -1,0 +1,88 @@
+// a. Base
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+
+$base-line-height: 160%;
+
+
+
+// b. Grid
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+
+$row-width: rem-calc(1180);
+
+
+
+// c. Global
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+
+$font-family-sans-serif: 'Andika', 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
+$font-family-cursive: 'Amatic SC', cursive;
+
+$font-weight-normal: 400;
+$font-weight-bold: 700;
+
+$body-font-family: $font-family-sans-serif;
+$body-font-weight: $font-weight-normal;
+
+$global-radius: 3px;
+
+$cursor-disabled-value: not-allowed;
+
+
+
+// e. Typography
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+
+$header-font-family: $font-family-cursive;
+$header-font-weight: $font-weight-bold;
+$header-text-rendering: optimizeLegibility;
+
+$h1-font-size: rem-calc(42);
+$h2-font-size: rem-calc(32);
+$h3-font-size: rem-calc(24);
+$h4-font-size: rem-calc(20);
+$h5-font-size: rem-calc(18);
+$h6-font-size: rem-calc(16);
+
+$subheader-line-height: 1.5;
+$subheader-font-weight: inherit;
+
+$small-font-size: 80%;
+$small-font-color: $gray;
+
+$paragraph-font-weight: $font-weight-normal;
+$paragraph-font-size: rem-calc(16);
+$paragraph-line-height: 1.5;
+$paragraph-margin-bottom: rem-calc(24);
+
+$anchor-text-decoration-hover: underline;
+
+// We use these to style blockquotes
+$blockquote-padding: rem-calc(10 20 10 20);
+$blockquote-border: 4px solid $gray-light;
+$blockquote-cite-font-size: rem-calc(14);
+
+$code-background-color: $gray-light;
+$code-border-color: $gray-light;
+
+
+
+// 05. Buttons
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+
+$button-tny: rem-calc(8);
+$button-sml: rem-calc(10);
+$button-med: rem-calc(10);
+$button-lrg: rem-calc(10);
+
+$button-font-tny: rem-calc(14);
+$button-font-sml: rem-calc(16);
+$button-font-med: rem-calc(18);
+$button-font-lrg: rem-calc(20);
+
+$button-font-color: $white;
+$button-font-weight: $font-weight-normal;
+
+$button-radius: $global-radius;
+$button-disabled-opacity: 0.5;
+$button-disabled-cursor: $cursor-disabled-value;

@@ -1,0 +1,11 @@
+site:
+  title: ruby-nord
+  i18n: fr
+  url: 'http://ruby-nord.org'
+  author: Amazing people
+social:
+  twitter:
+    name: _rubynord
+    url: https://twitter.com/_rubynord
+  meetup: http://www.meetup.com/rubynord/
+  email: hello@ruby-nord.org
