@@ -1,15 +1,29 @@
 .m-header {
-  padding: rem-calc(40 0);
+  padding: rem-calc(20 0);
   margin-bottom: rem-calc(40);
-  background: $black;
+  background: $white;
 
   h1 {
-    color: $white;
+    color: $black;
+
+    a {
+      color: $black;
+      &:hover {
+        text-decoration: none;
+      }
+    }
   }
+
   .button {
     margin-top: rem-calc(20);
     margin-bottom: 0;
   }
+
+  .logo {
+    height: rem-calc(80);
+    padding-right: rem-calc(20);
+  }
+
   span {
     @media #{$small-only} {
       display: none;

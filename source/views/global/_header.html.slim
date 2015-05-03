@@ -1,7 +1,10 @@
 header.m-header
   .row
     .medium-5.medium-push-1.small-6.columns
-      h1 = current_page.data.page_title
+      h1
+        = link_to '/' do
+          = image_tag 'logos/ruby-nord-red.png', alt: 'Logo Ruby Nord', class: 'logo'
+          = current_page.data.page_title
     .medium-5.small-6.columns
       = link_to data.settings.social.meetup, class: 'button large right' do
         'S’inscrire
