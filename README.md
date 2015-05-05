@@ -1,6 +1,6 @@
 # ruby-nord
 
-Website of ruby lovers from the north of France, build with [codeless](https://github.com/flexbox/codeless).
+Website of ruby lovers from the north of France, built with [codeless](https://github.com/flexbox/codeless).
 
 ###### Preprocessing
 - [Slim](http://slim-lang.com) *[for html]*
