@@ -9,5 +9,6 @@ gem 'middleman-favicon-maker',  '~> 3.7'
 gem 'middleman-minify-html',    '~> 3.4.0'
 gem 'middleman-sitemap',        '~> 0.0.13'
 gem 'middleman-autoprefixer',   '~> 2.1.1'
+gem 'middleman-robots',         '~> 1.0.1'
 
 gem 'slim',                     '~> 3.0.2'

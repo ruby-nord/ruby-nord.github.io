@@ -49,6 +49,10 @@ configure :build do
 
   activate :sitemap, hostname: data.settings.site.url
 
+  activate :robots,
+    rules: [{:user_agent => '*', :allow => %w(/)}],
+    sitemap: data.settings.site.url+'sitemap.xml'
+
   activate :minify_html
   activate :minify_css
   activate :minify_javascript
