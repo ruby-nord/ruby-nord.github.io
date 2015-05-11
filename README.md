@@ -30,7 +30,7 @@ Launch the server on your machine
 
 Deploy to Github Pages
 
-    rake publish
+    middleman deploy
 
 
 ## Contributing
