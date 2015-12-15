@@ -2,13 +2,9 @@ doctype html
 
 html lang="#{data.settings.site.i18n}"
   head
-    meta charset="utf-8"
-    meta name="viewport" content="width=device-width,initial-scale=1"
-
-    title #{current_page.data.title} ▾ #{data.settings.site.title}
-    meta name="description" content="#{current_page.data.description}"
-
     = partial 'views/global/favicon'
+    = partial 'views/global/meta_tags'
+
     = stylesheet_link_tag 'application'
     = stylesheet_link_tag 'http://fonts.googleapis.com/css?family=Amatic+SC:700|Andika'
 

@@ -1,12 +1,13 @@
 site:
-  title: Ruby Nord
-  i18n: fr
-  url: 'http://ruby-nord.org'
   author: Amazing people
+  description: "Ruby-Nord, talks, workshops, ruby burgers, rails mentors, ... Rejoignez-nous !"
+  i18n: fr
+  title: Ruby Nord
+  url: 'http://ruby-nord.org'
 social:
+  email: hello@ruby-nord.org
+  github: https://github.com/ruby-nord
+  meetup: http://www.meetup.com/rubynord/
   twitter:
     name: _rubynord
     url: https://twitter.com/_rubynord
-  meetup: http://www.meetup.com/rubynord/
-  email: hello@ruby-nord.org
-  github: https://github.com/ruby-nord
