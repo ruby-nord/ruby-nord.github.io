@@ -1,0 +1,77 @@
+---
+fr:
+  header:
+    logo:
+      image_alt: Logo Ruby Nord
+    meetup:
+      subscribe: S’inscrire à la prochaine rencontre
+  home:
+    chat:
+      description_html: |
+        Nous avons créé un groupe de discussion sur Slack.
+        Pour le rejoindre, envoyez-nous un email à
+        %{mailto} en indiquant votre profil Meetup.
+      invitation_request_mail: '[ruby-nord] Demande d’invitation Slack'
+      join: Rejoindre la discussion
+      title: Discuter sur notre chat
+    description: |
+      Nous sommes une communauté de développeurs Ruby et Ruby on Rails
+      de Lille. Nous échangeons autour des technologies web (ruby, gems,
+      frameworks…), des meilleures pratiques (méthodes agiles, conventions,
+      tests…) ainsi que de tout ce qui touche de près ou de loin à Ruby.
+      Que vous soyez professionnel, amateur éclairé ou simple curieux,
+      vous êtes bienvenu(e).
+    events:
+      call_to_event: |
+        Un événement n'a pas eu lieu depuis belle lurette ?
+        Aucun événement ne semble combler vos attentes ?
+        N'hésitez pas à en proposer un.
+      title: Événements
+      rails_mentors:
+        description_html: |
+          Si vous débutez en Ruby / Ruby on Rails, nos ateliers et rencontres
+          <strong>Rails Mentors</strong>
+          vous permettrons de mettre le pied à l'étrier.
+        image_alt: Photo de Rails Mentors à Lille
+        quote_html: |
+          Aider les gens à concevoir, développer et déployer
+          <br/>
+          de meilleures applications web, ensemble.
+      ruby_burgers:
+        description_html: |
+          À l’occasion de <strong>Ruby Burgers</strong>, nous nous retrouvons
+          également autour d’une bière (ou tout autre breuvage) et d’un burger :
+          une simple excuse pour se connaître et partager un bon moment.
+        image_alt: Photo repas Ruby Burgers
+      suggest_one: Proposer un événement
+      talks:
+        description_html: |
+          Nous nous rencontrons lors d’<strong> apéros / workshops</strong>
+          pour partager nos connaissances sur les dernières tendances Ruby.
+        image_alt: Photo de rencontre développeurs ruby lille
+    meta:
+      description: |
+        Apéros Ruby, Talks, Ruby Burgers, Rails Mentors, etc.
+        Rejoignez-nous !
+      page_title: Rencontres entre développeurs Ruby on Rails sur Lille
+    title: ruby-nord
+  logo:
+    description: |
+      Le logo est composé d’un mélange de 2 ensembles : le beffroi de la ville
+      de Lille et un Ruby rappelant le logo officiel créé par
+      Yukihiro Matsumoto.
+    download:
+      original: Télécharger notre logo Ruby Nord en rouge
+      white: Télécharger notre logo en blanc
+    formats:
+      description: |
+        Notre logo est toujours représenté en rouge ou en blanc.
+        Il n’est jamais représenté en noir ou à l’aide d’autres couleurs.
+      image_alt:
+        original: Logo Ruby Nord au format PNG
+        white: Logo Ruby Nord fond blanc au format PNG
+      title: Formats
+    meta:
+      description: Découvrez l'histoire derrière le logo de Ruby Nord
+      page_title: Logo
+    title: Le Logo de Ruby Nord

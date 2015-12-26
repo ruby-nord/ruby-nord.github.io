@@ -3,10 +3,16 @@ header.m-header
     .medium-5.medium-push-1.small-6.columns
       h1
         = link_to '/' do
-          = image_tag 'logos/ruby-nord-red.png', alt: 'Logo Ruby Nord', class: 'logo'
-          = current_page.data.page_title
+          = image_tag 'logos/ruby-nord-red.png', alt: t('header.logo.image_alt'), class: 'logo'
+          = t("#{current_page.data.i18n_scope}.title")
     .medium-5.small-6.columns
-      = link_to data.settings.social.meetup, class: 'button large right' do
-        'S’inscrire
-        span à la prochaine rencontre
-
+      div class='langs'
+        - langs.each do |lang|
+          - if active_lang?(lang)
+            span class="lang active"
+              = lang
+          - else
+            a href="#{lang_path(lang)}"
+              span class="lang"
+                = lang
+      = link_to t('header.meetup.subscribe'), data.settings.social.meetup, class: 'subscribe button large right'

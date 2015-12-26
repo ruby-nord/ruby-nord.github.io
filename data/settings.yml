@@ -1,7 +1,6 @@
 site:
-  author: Amazing people
+  author: Amazing people from Ruby Nord
   description: "Ruby-Nord, talks, workshops, ruby burgers, rails mentors, ... Rejoignez-nous !"
-  i18n: fr
   title: Ruby Nord
   url: 'http://ruby-nord.org'
 social:
