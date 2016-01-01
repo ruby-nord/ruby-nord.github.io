@@ -1,0 +1,72 @@
+---
+en:
+  header:
+    logo:
+      image_alt: Ruby Nord's logo
+    meetup:
+      subscribe: Join the next event
+  home:
+    chat:
+      description_html: |
+        We have a Slack team. We discuss about Ruby news, help each other,
+        talk about next events…
+        Send us an email at %{mailto} to join us.
+      invitation_request_mail: '[ruby-nord] Slack invitation request'
+      join: Join the discussion
+      title: Chat with us
+    description: |
+      We are a group of Ruby and Ruby on Rails developers from Lille,
+      North of France. We discuss web technologies (ruby, gems, frameworks…),
+      best practices (Agile methods, conventions, tests…) and everything
+      Ruby-related. Whether you're a professional, an enlightened amateur
+      or just a curious newcomer, you're welcome.
+    events:
+      call_to_event: |
+        Feel free to suggest any kind of events you feel we should organise.
+      title: Events
+      rails_mentors:
+        description_html: |
+          If you're a new comer to the Ruby / Ruby on Rails world, our
+          <strong>Rails Mentors</strong> workshops and meetings will
+          help you to start your journey in tech.
+        image_alt: Picture of Rails Mentors Lille
+        quote_html: |
+          Help people design, develop and deploy
+          <br/>
+          better web applications, together.
+      ruby_burgers:
+        description_html: |
+          During <strong>Ruby Burgers</strong>, we meet up around a beer
+          (or any other drink of course) and a burger. This is a simple excuse
+          to share a moment together.
+        image_alt: Picture of Ruby Burgers diner
+      suggest_one: Suggest an event
+      talks:
+        description_html: |
+          We meet up upon <strong>workshops</strong> where we share knowledge
+          on last Ruby news.
+        image_alt: Photo of Ruby developers meetup in lille
+    meta:
+      description: |
+        Talks, Ruby Burgers, Rails Mentors, etc.
+        Join us!
+      page_title: Meetings between Ruby on Rails developers in Lille
+    title: ruby-nord
+  logo:
+    description: |
+      Our logo mixes Lille's belfry and Matz's Ruby logo.
+    download:
+      original: Download original version of Ruby Nord logo
+      white: Download white version of logo
+    formats:
+      description: |
+        Our logo is always red or white.
+        It's never represented in black or in any other color.
+      image_alt:
+        original: PNG format of Ruby Nord logo
+        white: PNG format of Ruby Nord logo with white background
+      title: Formats
+    meta:
+      description: Discover the story of our Logo
+      page_title: Logo
+    title: Logo of Ruby Nord

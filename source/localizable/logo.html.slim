@@ -1,0 +1,25 @@
+---
+i18n_scope: logo
+---
+
+p = t('logo.description')
+
+.m-section
+  h2 = t('logo.formats.title')
+  p = t('logo.formats.description')
+  .row
+    .medium-6.columns
+      = image_tag 'logos/ruby-nord-red.png', alt: t('logo.formats.image_alt.original')
+    .medium-6.columns
+      = image_tag 'logos/ruby-nord-white.png', alt: t('logo.formats.image_alt.white')
+
+p = t('logo.download.original')
+
+ul.inline-list
+  li = link_to 'SVG', image_path('logos/ruby-nord.svg')
+  li = link_to 'PNG', image_path('logos/ruby-nord-red.png')
+
+p = t('logo.download.white')
+
+ul.inline-list
+  li = link_to 'PNG', image_path('logos/ruby-nord-white.png')

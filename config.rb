@@ -8,11 +8,12 @@ activate :deploy do |deploy|
 end
 
 activate :directory_indexes
+activate :i18n, langs: [:en, :fr], mount_at_root: :fr
 activate :livereload
 
-set :js_dir, 'assets/javascripts'
-set :css_dir, 'assets/stylesheets'
-set :images_dir, 'assets/images'
+set :js_dir,      'assets/javascripts'
+set :css_dir,     'assets/stylesheets'
+set :images_dir,  'assets/images'
 
 # Add bower's directory to sprockets asset path
 after_configuration do

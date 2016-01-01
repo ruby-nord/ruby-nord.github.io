@@ -19,9 +19,23 @@
     margin-bottom: 0;
   }
 
+  .langs {
+    text-align: right;
+  }
+
+  .lang {
+    margin: 0 rem-calc(5);
+    text-transform: uppercase;
+    font-weight: $font-weight-bold;
+  }
+
   .logo {
     height: rem-calc(80);
     padding-right: rem-calc(20);
+  }
+
+  .subscribe {
+    margin-top: rem-calc(5);
   }
 
   span {

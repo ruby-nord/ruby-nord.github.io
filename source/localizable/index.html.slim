@@ -1,0 +1,31 @@
+---
+i18n_scope: home
+---
+
+p = t('home.description')
+
+.m-section
+  h2 = t('home.events.title')
+  p = t('home.events.talks.description_html')
+  = image_tag 'events/apero-ruby-lille.jpeg', alt: t('home.events.talks.image_alt')
+
+  p = t('home.events.ruby_burgers.description_html')
+  = image_tag 'events/ruby-burger-lille.jpg', alt: t('home.events.ruby_burgers.image_alt')
+
+  p = t('home.events.rails_mentors.description_html')
+  .m-section.text-center
+    p.vador
+      '“
+      = t('home.events.rails_mentors.quote_html')
+      '”
+  = image_tag 'events/rails-mentor-lille.jpeg', alt: t('home.events.rails_mentors.image_alt')
+
+  p = t('home.events.call_to_event')
+  .text-center
+    = link_to t('home.events.suggest_one'), data.settings.social.meetup, class: 'button large'
+
+.m-section
+  h2 = t('home.chat.title')
+  p = t('home.chat.description_html', mailto: mail_to(data.settings.social.email))
+  .text-center
+    = mail_to data.settings.social.email, t('home.chat.join'), subject: t('home.chat.invitation_request_mail'), class: 'button large'
