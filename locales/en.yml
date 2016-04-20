@@ -75,6 +75,7 @@ en:
       Find all the past talks from our Apéros Ruby.
       Whether you're a beginner or a confirmed developer, feel free to give a talk and share your experience with the community.
     level:
+      all: all levels
       soft: soft
       beginner: beginner
       confirmed: confirmed

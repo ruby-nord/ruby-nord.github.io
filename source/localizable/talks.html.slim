@@ -26,6 +26,8 @@ div class="m-section"
               => talk.title
           | (
           = t("talks.level.#{talk.level}")
-          ' ) —
-          em
-            = link_to data.speakers[talk.speaker].name, data.speakers[talk.speaker].website
+          | )
+          - if talk.speaker
+            ' —
+            em
+              = link_to data.speakers[talk.speaker].name, data.speakers[talk.speaker].website
