@@ -3,15 +3,29 @@ i18n_scope: talks
 ---
 
 p.type-first-letter
-  'Que vous soyez débutant ou confirmé n'hésitez pas à prendre la parole et partager votre expérience avec la communauté.
+  = t('talks.description')
 
 div class="m-section"
-  h2 Slides des talks
-  ul
-    - data.talks.each_with_index do |talk|
-      li
-        strong
-          =' link_to talk.title, talk.url
-        ' —
-        em
-          = talk.author
+  p
+    => t('talks.suggest_one.incentive')
+    = link_to t('talks.suggest_one.howto'), 'http://courses.cecilitse.org/talks/about-talks.html'
+  .text-center
+    = link_to t('talks.suggest_one.call_to_event'), data.settings.social.meetup, class: 'button large'
+
+div class="m-section"
+  h2 = t('talks.past_talks')
+  - data.talks.each do |event|
+    h3 = l10n_date(event.date)
+    ul
+      - event.talks.each do |talk|
+        li
+          strong
+            - if talk.url
+              => link_to talk.title, talk.url
+            - else
+              => talk.title
+          | (
+          = t("talks.level.#{talk.level}")
+          ' ) —
+          em
+            = link_to data.speakers[talk.speaker].name, data.speakers[talk.speaker].website

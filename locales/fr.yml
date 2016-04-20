@@ -55,8 +55,6 @@ fr:
         Rejoignez-nous !
       page_title: Rencontres entre développeurs Ruby on Rails sur Lille
     title: ruby-nord
-  talks:
-    title: Conférences
   logo:
     description: |
       Le logo est composé d’un mélange de 2 ensembles : le beffroi de la ville
@@ -77,3 +75,20 @@ fr:
       description: Découvrez l'histoire derrière le logo de Ruby Nord
       page_title: Logo
     title: Le Logo de Ruby Nord
+  talks:
+    description: |
+      Retrouvez toutes les présentations passées de nos Apéros Ruby.
+      Que vous soyez débutant ou confirmé n'hésitez pas à prendre la parole et partager votre expérience avec la communauté.
+    level:
+      soft: soft
+      beginner: débutant
+      confirmed: confirmé
+    meta:
+      description: Retrouvez tous les talks de Ruby Nord
+      page_title: Talks
+    past_talks: Talks passés
+    suggest_one:
+      call_to_event: Proposer un talk
+      howto: Comment trouver un sujet de talk ?
+      incentive: "Pas d'idée de présentation ? Voici des slides qui pourraient vous aider :"
+    title: Talks des Apéros Ruby

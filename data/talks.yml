@@ -1,16 +1,23 @@
 -
-  title: Trouver un sujet de talk
-  author: Cécile Veneziani
-  url: http://courses.cecilitse.org/talks/about-talks.html
--
-  title: Architecture de Gemsavvy
-  author: Kevin Disneur
-  url: http://slides.com/kevindisneur/gemsavvy
--
-  title: Déploiment d'une application Rails sans interruption de service
-  author: Bob Maerten
-  url: https://speakerdeck.com/bobmaerten/deploiment-dune-application-rails-sans-interruption-de-service
--
-  title: Trouver un sujet de talk
-  author: Cécile Veneziani
-  url: http://courses.cecilitse.org/talks/about-talks.html
+  date: '2016-04-19'
+  talks:
+    -
+      title: How to find a subject to talk about
+      url: http://courses.cecilitse.org/talks/about-talks.html
+      level: soft
+      speaker: cecile
+    -
+      title: Déploiment d'une application Rails sans interruption de service
+      url: https://speakerdeck.com/bobmaerten/deploiment-dune-application-rails-sans-interruption-de-service
+      level: confirmed
+      speaker: bob
+    -
+      title: Démo d'un refactoring en 6 étapes
+      url:
+      level: beginner
+      speaker: ronan
+    -
+      title: How to build a Rails app in 48 hours without using the RailsWay™
+      url: http://slides.com/kevindisneur/gemsavvy
+      level: confirmed
+      speaker: keuvain
