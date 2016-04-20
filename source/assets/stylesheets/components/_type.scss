@@ -13,3 +13,14 @@
 .acolyte {
   @extend h5;
 }
+
+.type-first-letter {
+  &::first-letter {
+    font-weight: $font-weight-bold;
+    float: left;
+    margin: 0px 0 0 -55px;
+    padding: 10px;
+    font-size: 5.5rem;
+    color: $gray-darker;
+  }
+}

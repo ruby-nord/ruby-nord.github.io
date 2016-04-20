@@ -1,0 +1,17 @@
+---
+i18n_scope: talks
+---
+
+p.type-first-letter
+  'Que vous soyez débutant ou confirmé n'hésitez pas à prendre la parole et partager votre expérience avec la communauté.
+
+div class="m-section"
+  h2 Slides des talks
+  ul
+    - data.talks.each_with_index do |talk|
+      li
+        strong
+          =' link_to talk.title, talk.url
+        ' —
+        em
+          = talk.author

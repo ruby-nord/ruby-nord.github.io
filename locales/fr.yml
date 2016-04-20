@@ -55,6 +55,8 @@ fr:
         Rejoignez-nous !
       page_title: Rencontres entre développeurs Ruby on Rails sur Lille
     title: ruby-nord
+  talks:
+    title: Conférences
   logo:
     description: |
       Le logo est composé d’un mélange de 2 ensembles : le beffroi de la ville
