@@ -14,7 +14,7 @@
     -
       title: Démo d'un refactoring en 6 étapes
       url:
-      level: beginner
+      level: any
       speaker: ronan
     -
       title: How to build a Rails app in 48 hours without using the RailsWay™
@@ -32,12 +32,12 @@
     -
       title: Présentation de la gem administrate
       url:
-      level: all
+      level: any
       speaker: thomas
     -
       title: Présentation du projet Gemsavvy
       url: http://gemsavvy.tips/
-      level: all
+      level: any
       speaker: cecile
     -
       title: Code Ruby like you build Lego
@@ -68,7 +68,7 @@
     -
       title: Internationalisation d'une application Rails
       url:
-      level: beginner
+      level: any
       speaker: nicolas
     -
       title: Hébergement Cloud et intégration continue avec Codeship
@@ -86,7 +86,7 @@
     -
       title: Craft everything with Middleman
       url: http://courses.davidl.fr/presentations/middleman/
-      level: beginner
+      level: any
       speaker: david
     -
       title: Reform - How I use Form objects in my Rails applications
@@ -99,12 +99,12 @@
     -
       title: Resque
       url: https://speakerdeck.com/robink/resque-intro
-      level: all
+      level: any
       speaker: robin
     -
       title: Bootstrap - retour d'expérience et intégration avec Rails
       url:
-      level: all
+      level: any
       speaker: alexandre
 -
   date: '2012-06-19'
@@ -112,12 +112,12 @@
     -
       title: Les bonnes pratiques Ruby on Rails
       url:
-      level: all
+      level: any
       speaker: thomas
     -
       title: WebDesign for developers -  Formtastic, BootStrap, FontAwesome, ...
       url:
-      level: all
+      level: any
       speaker: cyril
 -
   date: '2012-04-17'
@@ -125,7 +125,7 @@
     -
       title: Initiation à Ruby on Rails
       url:
-      level: beginner
+      level: any
       speaker:
 -
   date: '2012-02-21'
@@ -133,10 +133,10 @@
     -
       title: Passage de Ruby on Rails 2.3 à 3.1
       url:
-      level: all
+      level: any
       speaker: cyril
     -
       title: SASS vs Less
       url:
-      level: all
+      level: any
       speaker: alexande_toulemonde

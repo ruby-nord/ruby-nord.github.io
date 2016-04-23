@@ -80,10 +80,9 @@ fr:
       Retrouvez toutes les présentations passées de nos Apéros Ruby.
       Que vous soyez débutant ou confirmé n'hésitez pas à prendre la parole et partager votre expérience avec la communauté.
     level:
-      all: tous niveaux
-      soft: soft
-      beginner: débutant
+      any: tous niveaux
       confirmed: confirmé
+      soft: soft
     meta:
       description: Retrouvez tous les talks de Ruby Nord
       page_title: Talks
