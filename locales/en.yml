@@ -46,6 +46,9 @@ en:
           We meet up upon <strong>workshops</strong> where we share knowledge
           on last Ruby news.
         image_alt: Photo of Ruby developers meetup in lille
+        incentive:
+          text: Have a look to
+          link: the last talks.
     meta:
       description: |
         Talks, Ruby Burgers, Rails Mentors, etc.

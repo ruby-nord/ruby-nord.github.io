@@ -49,6 +49,9 @@ fr:
           Nous nous rencontrons lors d’<strong> apéros / workshops</strong>
           pour partager nos connaissances sur les dernières tendances Ruby.
         image_alt: Photo de rencontre développeurs ruby lille
+        incentive:
+          text: Jetez un oeil aux
+          link: dernières présentations.
     meta:
       description: |
         Apéros Ruby, Talks, Ruby Burgers, Rails Mentors, etc.
