@@ -5,29 +5,39 @@ i18n_scope: talks
 p.type-first-letter
   = t('talks.description')
 
-div class="m-section"
+.m-section.text-center
+  = link_to t('talks.suggest_one.call_to_event'), data.settings.social.meetup, class: 'button secondary large'
+.m-section.text-center
   p
     => t('talks.suggest_one.incentive')
+    br
     = link_to t('talks.suggest_one.howto'), 'http://courses.cecilitse.org/talks/about-talks.html'
-  .text-center
-    = link_to t('talks.suggest_one.call_to_event'), data.settings.social.meetup, class: 'button large'
 
-div class="m-section"
+.m-section
   h2 = t('talks.past_talks')
   - data.talks.each do |event|
-    h3 = l10n_date(event.date)
-    ul
-      - event.talks.each do |talk|
-        li
-          strong
-            - if talk.url
-              => link_to talk.title, talk.url
-            - else
-              => talk.title
-          | (
-          = t("talks.level.#{talk.level}")
-          | )
-          - if talk.speaker
-            ' —
-            em
-              = link_to data.speakers[talk.speaker].name, data.speakers[talk.speaker].website
+    p.text-center = l10n_date(event.date)
+
+    - event.talks.each do |talk|
+      .panel.radius
+        .row
+          .small-12.columns
+            div class="label radius #{talk.level} right"
+              = t("talks.level.#{talk.level}")
+            - if talk.speaker
+              = image_tag data.speakers[talk.speaker].avatar_url, class: 'avatar'
+            h3
+              - if talk.url
+                => link_to talk.title, talk.url
+              - else
+                => talk.title
+
+            - if talk.speaker
+              p.avatar-footer
+                em
+                  ' —
+                  = data.speakers[talk.speaker].name
+                = link_to "https://github.com/#{data.speakers[talk.speaker].github}" do
+                  = svg 'github'
+                = link_to data.speakers[talk.speaker].website do
+                  = svg 'link'

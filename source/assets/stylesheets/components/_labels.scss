@@ -1,0 +1,6 @@
+.label {
+  &.all       { @include label-style($green); }
+  &.beginner  { @include label-style($turquoise); }
+  &.soft      { @include label-style($blue-steroid); }
+  &.confirmed { @include label-style($purple); }
+}
