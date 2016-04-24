@@ -100,6 +100,8 @@ GEM
       middleman (>= 3.3)
     middleman-sitemap (0.0.13)
       middleman-core (>= 3.2.2)
+    middleman-sitemap-ping (0.2.0)
+      middleman-core (~> 3.0)
     middleman-sprockets (3.4.2)
       middleman-core (>= 3.3)
       sprockets (~> 2.12.1)
@@ -170,6 +172,7 @@ DEPENDENCIES
   middleman-minify-html (~> 3.4.1)
   middleman-robots (~> 1.1.0)
   middleman-sitemap (~> 0.0.13)
+  middleman-sitemap-ping (~> 0.2.0)
   slim (~> 3.0.6)
 
 BUNDLED WITH

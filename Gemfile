@@ -10,5 +10,6 @@ gem 'middleman-livereload',     '~> 3.4.5'
 gem 'middleman-minify-html',    '~> 3.4.1'
 gem 'middleman-robots',         '~> 1.1.0'
 gem 'middleman-sitemap',        '~> 0.0.13'
+gem 'middleman-sitemap-ping',   '~> 0.2.0'
 
 gem 'slim',                     '~> 3.0.6'
