@@ -61,7 +61,8 @@ configure :build do
     sitemap:  "#{data.settings.site.url}/sitemap.xml"
 
   activate :sitemap, hostname: data.settings.site.url
+
   activate :sitemap_ping do |config|
-    config.host = "#{data.settings.site.url}"
+    config.host = data.settings.site.url
   end
 end

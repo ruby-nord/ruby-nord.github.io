@@ -1,19 +1,19 @@
 ---
 en:
+  chat:
+    description_html: |
+      We have a Slack team. We discuss about Ruby news, help each other,
+      talk about next events…
+      Send us an email at %{mailto} to join us.
+    invitation_request_mail: '[ruby-nord] Slack invitation request'
+    join: Join the discussion
+    title: Chat with us
   header:
     logo:
       image_alt: Ruby Nord's logo
     meetup:
       subscribe: Join the next event
   home:
-    chat:
-      description_html: |
-        We have a Slack team. We discuss about Ruby news, help each other,
-        talk about next events…
-        Send us an email at %{mailto} to join us.
-      invitation_request_mail: '[ruby-nord] Slack invitation request'
-      join: Join the discussion
-      title: Chat with us
     description: |
       We are a group of Ruby and Ruby on Rails developers from Lille,
       North of France. We discuss web technologies (ruby, gems, frameworks…),

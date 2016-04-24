@@ -1,19 +1,19 @@
 ---
 fr:
+  chat:
+    description_html: |
+      Nous avons créé un groupe de discussion sur Slack.
+      Pour le rejoindre, envoyez-nous un email à
+      %{mailto} en indiquant votre profil Meetup.
+    invitation_request_mail: '[ruby-nord] Demande d’invitation Slack'
+    join: Rejoindre la discussion
+    title: Discuter sur notre chat
   header:
     logo:
       image_alt: Logo Ruby Nord
     meetup:
       subscribe: S’inscrire à la prochaine rencontre
   home:
-    chat:
-      description_html: |
-        Nous avons créé un groupe de discussion sur Slack.
-        Pour le rejoindre, envoyez-nous un email à
-        %{mailto} en indiquant votre profil Meetup.
-      invitation_request_mail: '[ruby-nord] Demande d’invitation Slack'
-      join: Rejoindre la discussion
-      title: Discuter sur notre chat
     description: |
       Nous sommes une <strong>communauté de développeurs Ruby & Ruby on Rails</strong>
       de Lille. Nous échangeons autour des technologies web (ruby, gems,
