@@ -1,11 +1,12 @@
-
 .m-header-langs
   - langs.each do |lang|
     - if active_lang?(lang)
       span class="lang active"
         = lang
     - else
-      = link_to lang, lang_path(lang), class: 'lang'
+      / WAT: link_to does not generate the correct link.
+      a href="#{lang_path(lang)}" class="lang"
+        = lang
 header.m-header
   .row
     .medium-5.medium-push-1.columns
