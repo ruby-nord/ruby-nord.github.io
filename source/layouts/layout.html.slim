@@ -13,6 +13,7 @@ html lang="#{I18n.locale}"
     main.row
       .medium-8.medium-centered.columns
         == yield
+        = partial 'views/global/slack'
     = partial 'views/global/footer'
 
     = javascript_include_tag 'application'

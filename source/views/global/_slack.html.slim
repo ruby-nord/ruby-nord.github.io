@@ -1,0 +1,5 @@
+div id="chat" class="m-section"
+  h2 = t('home.chat.title')
+  p = t('home.chat.description_html', mailto: mail_to(data.settings.social.email))
+  .text-center
+    = mail_to data.settings.social.email, t('home.chat.join'), subject: t('home.chat.invitation_request_mail'), class: 'button large'
