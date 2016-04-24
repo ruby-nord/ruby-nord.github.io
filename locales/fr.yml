@@ -15,10 +15,10 @@ fr:
       join: Rejoindre la discussion
       title: Discuter sur notre chat
     description: |
-      Nous sommes une communauté de développeurs Ruby et Ruby on Rails
+      Nous sommes une <strong>communauté de développeurs Ruby & Ruby on Rails</strong>
       de Lille. Nous échangeons autour des technologies web (ruby, gems,
       frameworks…), des meilleures pratiques (méthodes agiles, conventions,
-      tests…) ainsi que de tout ce qui touche de près ou de loin à Ruby.
+      tests…) ainsi que de tout ce qui touche de près ou de loin à Ruby.<br>
       Que vous soyez professionnel, amateur éclairé ou simple curieux,
       vous êtes bienvenu(e).
     events:
@@ -49,6 +49,9 @@ fr:
           Nous nous rencontrons lors d’<strong> apéros / workshops</strong>
           pour partager nos connaissances sur les dernières tendances Ruby.
         image_alt: Photo de rencontre développeurs ruby lille
+        incentive:
+          text: Jetez un oeil aux
+          link: dernières présentations.
     meta:
       description: |
         Apéros Ruby, Talks, Ruby Burgers, Rails Mentors, etc.
@@ -75,3 +78,20 @@ fr:
       description: Découvrez l'histoire derrière le logo de Ruby Nord
       page_title: Logo
     title: Le Logo de Ruby Nord
+  talks:
+    description: |
+      Retrouvez toutes les présentations passées de nos Apéros Ruby.
+      Que vous soyez débutant ou confirmé n'hésitez pas à prendre la parole et partager votre expérience avec la communauté.
+    level:
+      any: tous niveaux
+      confirmed: confirmé
+      soft: soft
+    meta:
+      description: Retrouvez tous les talks de Ruby Nord
+      page_title: Talks
+    past_talks: Talks passés
+    suggest_one:
+      call_to_event: Proposer un talk
+      howto: Comment trouver un sujet de talk ?
+      incentive: "Pas d'idée de présentation ? Voici des slides qui pourraient vous aider :"
+    title: Talks des Apéros Ruby

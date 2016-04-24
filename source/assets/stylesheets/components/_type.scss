@@ -13,3 +13,18 @@
 .acolyte {
   @extend h5;
 }
+
+.type-first-letter {
+  &::first-letter {
+    font-weight: $font-weight-bold;
+    float: left;
+    margin: rem-calc(0 0 0 -20);
+    padding: rem-calc(10 10 0 15);
+    font-size: 5.5rem;
+    color: $gray-darker;
+  }
+}
+
+.mb-0 {
+  margin-bottom: 0;
+}

@@ -46,6 +46,9 @@ en:
           We meet up upon <strong>workshops</strong> where we share knowledge
           on last Ruby news.
         image_alt: Photo of Ruby developers meetup in lille
+        incentive:
+          text: Have a look to
+          link: the last talks.
     meta:
       description: |
         Talks, Ruby Burgers, Rails Mentors, etc.
@@ -70,3 +73,21 @@ en:
       description: Discover the story of our Logo
       page_title: Logo
     title: Logo of Ruby Nord
+  talks:
+    description: |
+      Find all the past talks from our Apéros Ruby.
+      Whether you're a beginner or a confirmed developer, feel free to give a talk and share your experience with the community.
+    level:
+      any: any level
+      confirmed: confirmed
+      soft: soft
+    meta:
+      description: Find all the talks from Ruby Nord
+      page_title: Talks
+    past_talks: Past talks
+    suggest_one:
+      call_to_event: Suggest a talk
+      howto: How to find a subject to talk about?
+      incentive: "Don't have any idea of talk? Here are slides that could help you:"
+    title: Talks from Apéros Ruby
+

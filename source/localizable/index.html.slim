@@ -2,12 +2,16 @@
 i18n_scope: home
 ---
 
-p = t('home.description')
+p.type-first-letter
+  = t('home.description')
 
 div class="m-section"
   h2 = t('home.events.title')
   div id="talks"
-    p = t('home.events.talks.description_html')
+    p
+      => t('home.events.talks.description_html')
+      => t('home.events.talks.incentive.text')
+      => link_to t('home.events.talks.incentive.link'), '/talks.html'
     = image_tag 'events/apero-ruby-lille.jpeg', alt: t('home.events.talks.image_alt')
 
   div id="ruby-burgers"
