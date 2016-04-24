@@ -18,8 +18,8 @@
   &::first-letter {
     font-weight: $font-weight-bold;
     float: left;
-    margin: 0px 0 0 -55px;
-    padding: 10px;
+    margin: rem-calc(0 0 0 -20);
+    padding: rem-calc(10 10 0 15);
     font-size: 5.5rem;
     color: $gray-darker;
   }

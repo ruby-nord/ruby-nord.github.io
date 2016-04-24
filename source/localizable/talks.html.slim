@@ -20,24 +20,25 @@ p.type-first-letter
 
     - event.talks.each do |talk|
       .panel.radius
-        .row
-          .small-12.columns
-            div class="label radius #{talk.level} right"
-              = t("talks.level.#{talk.level}")
+          .avatar-card
             - if talk.speaker
-              = image_tag data.speakers[talk.speaker].avatar_url, class: 'avatar'
-            h3
-              - if talk.url
-                => link_to talk.title, talk.url
-              - else
-                => talk.title
+              = image_tag data.speakers[talk.speaker].avatar_url, class: 'avatar-picture'
 
-            - if talk.speaker
-              p.avatar-footer
-                em
-                  ' —
-                  = data.speakers[talk.speaker].name
-                = link_to "https://github.com/#{data.speakers[talk.speaker].github}" do
-                  = svg 'github'
-                = link_to data.speakers[talk.speaker].website do
-                  = svg 'link'
+            .avatar-content
+              div class="label radius #{talk.level}"
+                = t("talks.level.#{talk.level}")
+              h3
+                - if talk.url
+                  => link_to talk.title, talk.url
+                - else
+                  => talk.title
+
+              - if talk.speaker
+                p.avatar-footer
+                  em
+                    ' —
+                    = data.speakers[talk.speaker].name
+                  = link_to "https://github.com/#{data.speakers[talk.speaker].github}" do
+                    = svg 'github'
+                  = link_to data.speakers[talk.speaker].website do
+                    = svg 'link'

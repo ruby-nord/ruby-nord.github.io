@@ -3,41 +3,48 @@
 }
 
 .avatar {
-  border-radius: 100%;
-  margin-bottom: 0 !important;
-  width: 48px;
-  height: 48px;
-  margin: 10px 20px 10px 10px;
-  float: left;
+  &-card {
+    display: flex;
+    align-items: center;
+    @media #{$small-only} {
+      flex-direction: column;
+    }
+  }
+
+  &-content {
+    flex-grow: 1;
+    .label {
+      float: none;
+      @media #{$medium-up} {
+        float: right;
+      }
+    }
+  }
+
+
+  &-picture {
+    border-radius: 100%;
+    margin-bottom: 0 !important;
+    width: rem-calc(48);
+    height: rem-calc(48);
+    margin: rem-calc(0 30 0 20);
+  }
 
   &-footer {
     margin-bottom: 0;
     em {
       float: left;
-      margin-right: 10px;
+      margin-right: rem-calc(10);
     }
     a {
-      width: 32px;
+      width: rem-calc(32);
       display: block;
-      padding: 5px;
+      padding:rem-calc(5);
       float: left;
-      height: 32px;
-      margin-top: -5px;
+      height: rem-calc(32);
+      margin-top: rem-calc(-5);
     }
   }
+
 }
 
-.icon {
-  width: 24px;
-  height: 24px;
-  fill: $gray;
-  &:hover,
-  &:focus {
-    fill: $black;
-  }
-}
-
-.icon-link {
-  width: 30px;
-  height: 30px;
-}

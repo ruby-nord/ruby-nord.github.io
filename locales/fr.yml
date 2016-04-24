@@ -15,10 +15,10 @@ fr:
       join: Rejoindre la discussion
       title: Discuter sur notre chat
     description: |
-      Nous sommes une communauté de développeurs Ruby et Ruby on Rails
+      Nous sommes une <strong>communauté de développeurs Ruby & Ruby on Rails</strong>
       de Lille. Nous échangeons autour des technologies web (ruby, gems,
       frameworks…), des meilleures pratiques (méthodes agiles, conventions,
-      tests…) ainsi que de tout ce qui touche de près ou de loin à Ruby.
+      tests…) ainsi que de tout ce qui touche de près ou de loin à Ruby.<br>
       Que vous soyez professionnel, amateur éclairé ou simple curieux,
       vous êtes bienvenu(e).
     events:
