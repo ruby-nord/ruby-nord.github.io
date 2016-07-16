@@ -4,7 +4,7 @@
     -
       title: How to find a subject to talk about
       url: http://courses.cecilitse.org/talks/about-talks.html
-      level: soft
+      level: soft_skills
       speaker: cecile
     -
       title: Déploiement d'une application Rails sans interruption de service
@@ -50,7 +50,7 @@
     -
       title: Community Overflow
       url: http://www.slideshare.net/douglascamata/community-overflow-54748436
-      level: soft
+      level: soft_skills
       speaker: douglas
     -
       title: Interactors - How to use interactors to write services

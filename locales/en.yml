@@ -80,7 +80,7 @@ en:
     level:
       any: any level
       confirmed: confirmed
-      soft: soft
+      soft_skills: soft skills
     meta:
       description: Find all the talks from Ruby Nord
       page_title: Talks

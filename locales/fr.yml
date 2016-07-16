@@ -85,7 +85,7 @@ fr:
     level:
       any: tous niveaux
       confirmed: confirmé
-      soft: soft
+      soft_skills: soft skills
     meta:
       description: Retrouvez tous les talks de Ruby Nord
       page_title: Talks
