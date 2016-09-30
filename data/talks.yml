@@ -5,22 +5,22 @@
       title: How to find a subject to talk about
       url: http://courses.cecilitse.org/talks/about-talks.html
       level: soft_skills
-      speaker: cecile
+      speakers: cecile
     -
       title: Déploiement d'une application Rails sans interruption de service
       url: https://speakerdeck.com/bobmaerten/deploiement-dune-application-rails-sans-interruption-de-service
       level: confirmed
-      speaker: bob
+      speakers: bob
     -
       title: Démo d'un refactoring en 6 étapes
       url:
       level: any
-      speaker: ronan
+      speakers: ronan
     -
       title: How to build a Rails app in 48 hours without using the RailsWay™
       url: http://slides.com/kevindisneur/gemsavvy
       level: confirmed
-      speaker: keuvain
+      speakers: keuvain
 -
   date: '2016-02-16'
   talks:
@@ -28,22 +28,22 @@
       title: Utiliser Middleman avec des clients
       url: http://fr.slideshare.net/SamuelBourdon/middleman-avec-des-clients
       level: confirmed
-      speaker: samuel
+      speakers: samuel
     -
       title: Présentation de la gem administrate
       url: https://github.com/thoughtbot/administrate
       level: any
-      speaker: thomas
+      speakers: thomas
     -
       title: Présentation du projet Gemsavvy
       url: http://gemsavvy.tips/
       level: any
-      speaker: cecile
+      speakers: cecile
     -
       title: Code Ruby like you build Lego
       url: http://slides.com/apneadiving/code-ruby-like-you-build-legos/
       level: confirmed
-      speaker: benjamin
+      speakers: benjamin
 -
   date: '2015-11-04'
   talks:
@@ -51,17 +51,17 @@
       title: Community Overflow
       url: http://www.slideshare.net/douglascamata/community-overflow-54748436
       level: soft_skills
-      speaker: douglas
+      speakers: douglas
     -
       title: Interactors - How to use interactors to write services
       url: http://talks.lepagnot.fr/talks/interactors/
       level: confirmed
-      speaker: cyril
+      speakers: cyril
     -
       title: Query Objects - How I use Query objects in Rails applications
       url: http://courses.cecilitse.org/talks/query-objects-in-rails-apps.html/
       level: confirmed
-      speaker: cecile
+      speakers: cecile
 -
   date: '2015-10-01'
   talks:
@@ -69,17 +69,17 @@
       title: Internationalisation d'une application Rails
       url:
       level: any
-      speaker: nicolas
+      speakers: nicolas
     -
       title: Hébergement Cloud et intégration continue avec Codeship
       url: https://docs.google.com/presentation/d/1erWG-RKI-ttecjB33I9mRgAhu0_OqryMEzQYOLSnIu0/pub
       level: confirmed
-      speaker: alexandre_salaun
+      speakers: alexandre_salaun
     -
       title: Retour d'expérience rest-ftp-daemon
       url: https://fr.slideshare.net/secret/2HhilMsRrM1GGk
       level: confirmed
-      speaker: bruno
+      speakers: bruno
 -
   date: '2015-09-17'
   talks:
@@ -87,12 +87,12 @@
       title: Craft everything with Middleman
       url: http://courses.davidl.fr/presentations/middleman/
       level: any
-      speaker: david
+      speakers: david
     -
       title: Reform - How I use Form objects in my Rails applications
       url: http://courses.cecilitse.org/talks/form-objects-in-rails-apps.html
       level: confirmed
-      speaker: cecile
+      speakers: cecile
 -
   date: '2012-10-30'
   talks:
@@ -100,12 +100,12 @@
       title: Resque
       url: https://speakerdeck.com/robink/resque-intro
       level: any
-      speaker: robin
+      speakers: robin
     -
       title: Bootstrap - retour d'expérience et intégration avec Rails
       url:
       level: any
-      speaker: alexandre
+      speakers: alexandre
 -
   date: '2012-06-19'
   talks:
@@ -113,12 +113,12 @@
       title: Les bonnes pratiques Ruby on Rails
       url:
       level: any
-      speaker: thomas
+      speakers: thomas
     -
       title: WebDesign for developers -  Formtastic, BootStrap, FontAwesome, ...
       url:
       level: any
-      speaker: cyril
+      speakers: cyril
 -
   date: '2012-04-17'
   talks:
@@ -126,7 +126,7 @@
       title: Initiation à Ruby on Rails
       url:
       level: any
-      speaker:
+      speakers:
 -
   date: '2012-02-21'
   talks:
@@ -134,9 +134,9 @@
       title: Passage de Ruby on Rails 2.3 à 3.1
       url:
       level: any
-      speaker: cyril
+      speakers: cyril
     -
       title: SASS vs Less
       url:
       level: any
-      speaker: alexande_toulemonde
+      speakers: alexande_toulemonde

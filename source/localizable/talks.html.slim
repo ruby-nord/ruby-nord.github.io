@@ -21,9 +21,10 @@ p.type-first-letter
     - event.talks.each do |talk|
       .panel.radius
           .avatar-card
-            - if talk.speaker
-              = image_tag data.speakers[talk.speaker].avatar_url, class: 'avatar-picture'
-
+            - if talk.speakers
+                .avatar-speakers
+                  - [*talk.speakers].each do |speaker|
+                    = image_tag data.speakers[speaker].avatar_url, class: 'avatar-picture'
             .avatar-content
               div class="label radius #{talk.level}"
                 = t("talks.level.#{talk.level}")
@@ -32,13 +33,14 @@ p.type-first-letter
                   => link_to talk.title, talk.url
                 - else
                   => talk.title
-
-              - if talk.speaker
-                p.avatar-footer
-                  em
-                    ' —
-                    = data.speakers[talk.speaker].name
-                  = link_to "https://github.com/#{data.speakers[talk.speaker].github}" do
-                    = svg 'github'
-                  = link_to data.speakers[talk.speaker].website do
-                    = svg 'link'
+              - if talk.speakers
+                - [*talk.speakers].each do |speaker|
+                  p.avatar-footer
+                    em
+                      ' —
+                      = data.speakers[speaker].name
+                    = link_to "https://github.com/#{data.speakers[speaker].github}" do
+                      = svg 'github'
+                    = link_to data.speakers[speaker].website do
+                      = svg 'link'
+                  .clearfix
