@@ -1,4 +1,27 @@
 -
+  date: '2016-09-29'
+  talks:
+    -
+      title: Euruko 2016
+      url: http://www.euruko2016.org/
+      level: any
+      speakers: francois
+    -
+      title: Spina - CMS Ruby on Rails
+      url: http://www.spinacms.com/
+      level: any
+      speakers: francois_xavier
+    -
+      title: Is Ruby functional?
+      url: http://jealous-beetle.surge.sh/
+      level: any
+      speakers: [xavier, yann]
+    -
+      title: Ruby Together
+      url: https://rubytogether.org/
+      level: soft_skills
+      speakers: cecile
+-
   date: '2016-04-19'
   talks:
     -
