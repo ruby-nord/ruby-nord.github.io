@@ -3,7 +3,7 @@
   talks:
     -
       title: Euruko 2016
-      url: http://www.euruko2016.org/
+      url: https://github.com/ruby-nord/ruby-nord/blob/master/talks/2016-09-29-euruko_2016.pdf
       level: any
       speakers: francois
     -
