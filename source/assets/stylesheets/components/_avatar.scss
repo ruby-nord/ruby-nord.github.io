@@ -13,21 +13,31 @@
 
   &-content {
     flex-grow: 1;
+
+    @media #{$small-only} {
+      align-self: flex-start;
+    }
+
     .label {
       float: none;
+
       @media #{$medium-up} {
         float: right;
+        margin-left: rem-calc(10);
       }
     }
   }
-
 
   &-picture {
     border-radius: 100%;
     margin-bottom: 0 !important;
     width: rem-calc(48);
     height: rem-calc(48);
-    margin: rem-calc(0 30 0 20);
+    margin: rem-calc(0 60 0 20);
+  }
+
+  &-speakers .avatar-picture:nth-child(2) {
+    margin: rem-calc(0 30 0 -80);
   }
 
   &-footer {
