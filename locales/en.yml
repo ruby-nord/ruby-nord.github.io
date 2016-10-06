@@ -73,6 +73,13 @@ en:
       description: Discover the story of our Logo
       page_title: Logo
     title: Logo of Ruby Nord
+  page_not_found:
+    back_to_home: Back to Ruby Nord
+    description: OOPS! Looks like you're lost. Don't panic, simply follow the link and go back to the home page. We're there with a lot of Ruby events :)
+    meta:
+      description: We're sorry but this page doesn't exist.
+      page_title: Page not found (404)
+    title: Page not found (404)
   talks:
     description: |
       Find all the past talks from our Apéros Ruby.
