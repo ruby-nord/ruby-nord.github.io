@@ -78,6 +78,13 @@ fr:
       description: Découvrez l'histoire derrière le logo de Ruby Nord
       page_title: Logo
     title: Le Logo de Ruby Nord
+  page_not_found:
+    back_to_home: Revenir sur Ruby Nord
+    description: OUPS ! Il semblerait que vous soyez sorti(e) des sentiers battus. Pas de panique, suivez le lien jusqu'à la page d'accueil. On vous y attend avec une foison d'événements Ruby :)
+    meta:
+      description: Cette page n'existe pas.
+      page_title: Page non trouvée (404)
+    title: Page non trouvée (404)
   talks:
     description: |
       Retrouvez toutes les présentations passées de nos Apéros Ruby.
