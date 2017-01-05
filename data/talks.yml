@@ -1,4 +1,17 @@
 -
+  date: '2016-12-13'
+  talks:
+    -
+      title: Construire un newsfeed à la Facebook avec Rails
+      url:
+      level: any
+      speakers: vincent
+    -
+      title: 10 choses que j'ai apprises sur le dev grâce à Megadeth
+      url:
+      level: any
+      speakers: ronan
+-
   date: '2016-09-29'
   talks:
     -

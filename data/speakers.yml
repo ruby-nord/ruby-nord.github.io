@@ -88,6 +88,11 @@ thomas:
   github: tgautier
   website: http://www.doum.it/
   avatar_url: https://avatars.githubusercontent.com/u/46698?v=3
+vincent:
+  name: Vincent Daubry
+  github: https://github.com/vdaubry
+  website: http://youboox.fr/
+  avatar_url: https://avatars3.githubusercontent.com/u/498298?v=3&s=400
 xavier:
   name: Xavier Van de Woestyne
   github: xvw
