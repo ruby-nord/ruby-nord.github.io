@@ -97,4 +97,13 @@ en:
       howto: How to find a subject to talk about?
       incentive: "Don't have any idea of talk? Here are slides that could help you:"
     title: Talks from Apéros Ruby
+  work:
+    description: |
+      Find all the past talks from our Apéros Ruby.
+      Whether you're a beginner or a confirmed developer, feel free to give a talk and share your experience with the community.
+    meta:
+      description: Find all the talks from Ruby Nord
+      page_title: Talks
+    title: Talks from Apéros Ruby
+
 

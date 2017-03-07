@@ -1,5 +1,15 @@
 .label {
+  @include label-style($gray);
+
   &.any         { @include label-style($green); }
+  &.product,
   &.confirmed   { @include label-style($purple); }
+
+  &.agency,
   &.soft_skills { @include label-style($blue-steroid); }
+
+  &.incubator,
+  &.editor       { @include label-style($black); }
+
+  &.bootcamp     { @include label-style($red); }
 }

@@ -102,3 +102,11 @@ fr:
       howto: Comment trouver un sujet de talk ?
       incentive: "Pas d'idée de présentation ? Voici des slides qui pourraient vous aider :"
     title: Talks des Apéros Ruby
+  work:
+    description: |
+      Find all the past talks from our Apéros Ruby.
+      Whether you're a beginner or a confirmed developer, feel free to give a talk and share your experience with the community.
+    meta:
+      description: Find all the talks from Ruby Nord
+      page_title: Talks
+    title: Work with ruby
