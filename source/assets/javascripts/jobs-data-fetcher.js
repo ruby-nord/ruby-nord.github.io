@@ -6,10 +6,8 @@ $(document).ready(function() {
 
     for (var singleRow = 0; singleRow < allRows.length; singleRow++) {
       var rowCells = allRows[singleRow].split(',');
-      var shop = '<div class="panel radius">';
-      shop += '<div class="avatar-content">';
+      var shop = '<li><div class="panel radius panel-shops">';
 
-      console.log(singleRow);
       if (singleRow !== 0) {
         for (var rowCell = 0; rowCell < rowCells.length; rowCell++) {
           if (rowCell === 0) {
@@ -30,10 +28,9 @@ $(document).ready(function() {
             shop += '</p>';
           }
         }
-        shop += '</div>';
-        shop += '</div>';
-        $('#js-shop-list').append(shop);
 
+        shop += '</div></li>';
+        $('#js-shop-list').append(shop);
       }
     }
   }

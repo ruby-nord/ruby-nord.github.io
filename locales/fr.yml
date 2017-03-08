@@ -23,15 +23,15 @@ fr:
       vous êtes bienvenu(e).
     events:
       call_to_event: |
-        Un événement n'a pas eu lieu depuis belle lurette ?
+        Un événement n’a pas eu lieu depuis belle lurette ?
         Aucun événement ne semble combler vos attentes ?
-        N'hésitez pas à en proposer un.
+        N’hésitez pas à en proposer un.
       title: Événements
       rails_mentors:
         description_html: |
           Si vous débutez en Ruby / Ruby on Rails, nos ateliers et rencontres
           <strong>Rails Mentors</strong>
-          vous permettrons de mettre le pied à l'étrier.
+          vous permettrons de mettre le pied à l’étrier.
         image_alt: Photo de Rails Mentors à Lille
         quote_html: |
           Aider les gens à concevoir, développer et déployer
@@ -75,20 +75,20 @@ fr:
         white: Logo Ruby Nord fond blanc au format PNG
       title: Formats
     meta:
-      description: Découvrez l'histoire derrière le logo de Ruby Nord
+      description: Découvrez l’histoire derrière le logo de Ruby Nord
       page_title: Logo
     title: Le Logo de Ruby Nord
   page_not_found:
     back_to_home: Revenir sur Ruby Nord
-    description: OUPS ! Il semblerait que vous soyez sorti(e) des sentiers battus. Pas de panique, suivez le lien jusqu'à la page d'accueil. On vous y attend avec une foison d'événements Ruby :)
+    description: OUPS ! Il semblerait que vous soyez sorti(e) des sentiers battus. Pas de panique, suivez le lien jusqu’à la page d’accueil. On vous y attend avec une foison d’événements Ruby :)
     meta:
-      description: Cette page n'existe pas.
+      description: Cette page n’existe pas.
       page_title: Page non trouvée (404)
     title: Page non trouvée (404)
   talks:
     description: |
       Retrouvez toutes les présentations passées de nos Apéros Ruby.
-      Que vous soyez débutant ou confirmé n'hésitez pas à prendre la parole et partager votre expérience avec la communauté.
+      Que vous soyez débutant ou confirmé n’hésitez pas à prendre la parole et partager votre expérience avec la communauté.
     level:
       any: tous niveaux
       confirmed: confirmé
@@ -100,13 +100,12 @@ fr:
     suggest_one:
       call_to_event: Proposer un talk
       howto: Comment trouver un sujet de talk ?
-      incentive: "Pas d'idée de présentation ? Voici des slides qui pourraient vous aider :"
+      incentive: "Pas d’idée de présentation ? Voici des slides qui pourraient vous aider :"
     title: Talks des Apéros Ruby
   work:
-    description: |
-      Find all the past talks from our Apéros Ruby.
-      Whether you're a beginner or a confirmed developer, feel free to give a talk and share your experience with the community.
+    description: Classement des entreprises françaises travaillant avec Ruby et Ruby on Rails
+    tweet_this: Tweeter le lien
     meta:
-      description: Find all the talks from Ruby Nord
-      page_title: Talks
-    title: Work with ruby
+      description: Retrouvez toutes les entreprises françaises travaillant avec les technologies Ruby et Ruby on Rails
+      page_title: Agences, entreprises, startups et bootcamp Ruby on Rails
+    title: Work with Ruby

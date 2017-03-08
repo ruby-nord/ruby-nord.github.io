@@ -2,10 +2,11 @@
 i18n_scope: work
 ---
 
-h2 Classement des entreprises françaises travaillant avec ruby et Ruby on Rails
+h2
+  = t('work.description')
 
 .m-section.text-center
   = link_to "https://twitter.com/intent/tweet?text=#{host_url(current_page.url)} French companies working with &hashtags=ruby,RoR,dev", class: 'button secondary', target: '_blank' do
-    'Tweeter le lien
+    = t('work.tweet_this')
 
-#js-shop-list
+ul#js-shop-list.small-block-grid-1.medium-block-grid-2
