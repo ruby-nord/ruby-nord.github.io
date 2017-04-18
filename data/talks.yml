@@ -9,12 +9,12 @@
     -
       title: Retour sur un processus de dé-gem-ification sur une appli Rails
       url: https://speakerdeck.com/bobmaerten/retour-sur-un-processus-de-de-gem-ification-sur-une-appli-rails
-      level: confirmed
+      level: any
       speakers: bob
     -
       title: How to love / hate / use the asset pipeline
       url: http://courses.davidl.fr/presentations/sprockets/#/
-      level: confirmed
+      level: any
       speakers: david
 -
   date: '2016-12-13'
