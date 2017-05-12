@@ -1,0 +1,12 @@
+---
+i18n_scope: work
+---
+
+h2
+  = t('work.description')
+
+.m-section.text-center
+  = link_to "https://twitter.com/intent/tweet?text=#{host_url(current_page.url)} French companies working with &hashtags=ruby,RoR,dev", class: 'button secondary', target: '_blank' do
+    = t('work.tweet_this')
+
+ul#js-shop-list.small-block-grid-1.medium-block-grid-2

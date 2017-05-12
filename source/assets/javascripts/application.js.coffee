@@ -1,1 +1,2 @@
-#= require_self
+#= require jquery
+#= require jobs-data-fetcher

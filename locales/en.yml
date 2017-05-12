@@ -10,7 +10,7 @@ en:
     title: Chat with us
   header:
     logo:
-      image_alt: Ruby Nord's logo
+      image_alt: Ruby Nord’s logo
     meetup:
       subscribe: Join the next event
   home:
@@ -18,15 +18,15 @@ en:
       We are a group of Ruby and Ruby on Rails developers from Lille,
       North of France. We discuss web technologies (ruby, gems, frameworks…),
       best practices (Agile methods, conventions, tests…) and everything
-      Ruby-related. Whether you're a professional, an enlightened amateur
-      or just a curious newcomer, you're welcome.
+      Ruby-related. Whether you’re a professional, an enlightened amateur
+      or just a curious newcomer, you’re welcome.
     events:
       call_to_event: |
         Feel free to suggest any kind of events you feel we should organise.
       title: Events
       rails_mentors:
         description_html: |
-          If you're a new comer to the Ruby / Ruby on Rails world, our
+          If you’re a new comer to the Ruby / Ruby on Rails world, our
           <strong>Rails Mentors</strong> workshops and meetings will
           help you to start your journey in tech.
         image_alt: Picture of Rails Mentors Lille
@@ -57,14 +57,14 @@ en:
     title: ruby-nord
   logo:
     description: |
-      Our logo mixes Lille's belfry and Matz's Ruby logo.
+      Our logo mixes Lille’s belfry and Matz’s Ruby logo.
     download:
       original: Download original version of Ruby Nord logo
       white: Download white version of logo
     formats:
       description: |
         Our logo is always red or white.
-        It's never represented in black or in any other color.
+        It’s never represented in black or in any other color.
       image_alt:
         original: PNG format of Ruby Nord logo
         white: PNG format of Ruby Nord logo with white background
@@ -75,15 +75,15 @@ en:
     title: Logo of Ruby Nord
   page_not_found:
     back_to_home: Back to Ruby Nord
-    description: OOPS! Looks like you're lost. Don't panic, simply follow the link and go back to the home page. We're there with a lot of Ruby events :)
+    description: OOPS! Looks like you’re lost. Don’t panic, simply follow the link and go back to the home page. We’re there with a lot of Ruby events :)
     meta:
-      description: We're sorry but this page doesn't exist.
+      description: We’re sorry but this page doesn’t exist.
       page_title: Page not found (404)
     title: Page not found (404)
   talks:
     description: |
       Find all the past talks from our Apéros Ruby.
-      Whether you're a beginner or a confirmed developer, feel free to give a talk and share your experience with the community.
+      Whether you’re a beginner or a confirmed developer, feel free to give a talk and share your experience with the community.
     level:
       any: any level
       confirmed: confirmed
@@ -95,6 +95,12 @@ en:
     suggest_one:
       call_to_event: Suggest a talk
       howto: How to find a subject to talk about?
-      incentive: "Don't have any idea of talk? Here are slides that could help you:"
+      incentive: "Don’t have any idea of talk? Here are slides that could help you:"
     title: Talks from Apéros Ruby
-
+  work:
+    description: French companies working with Ruby and Ruby on Rails
+    tweet_this: Tweet the link
+    meta:
+      description: Find all the talks from Ruby Nord
+      page_title: "French agencies, companies, startups & bootcamp working with Ruby on Rails"
+    title: Work with Ruby
